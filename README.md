@@ -1,4 +1,4 @@
-Python twitter bot for @melty\_blood\_bot
+Python twitter bot for @working\_bgm\_bot
 ====================
 
 Bot account: [@working_bgm_bot](https://twitter.com/working_bgm_bot)
