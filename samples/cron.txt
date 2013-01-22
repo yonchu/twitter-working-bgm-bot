@@ -1,0 +1,5 @@
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/local/share:/bin:/usr/bin
+MAILTO=bot
+
+15  0-23/4  *  *  * cd /home/bot/work/cron/twitter-working-bgm-bot && ./run-script/run-script start ./working_bgm_bot.py 2>&1 | logger -t working_bgm_bot -p local0.info
