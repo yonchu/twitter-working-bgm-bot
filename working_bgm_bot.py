@@ -84,8 +84,10 @@ def register_twitter_video_bot_jobs(job_manager, bot):
 
     prev_datetime = job_manager \
         .get_job_called_datetime(TwitterVideoBot.__name__,
-                                 TwitterVideoBot.nico_latest_commenting_video.__name__)
-    func_tuple = (TwitterVideoBot.nico_latest_commenting_video, [SEARCH_WORD, prev_datetime],
+                                 TwitterVideoBot
+                                 .nico_latest_commenting_video_post.__name__)
+    func_tuple = (TwitterVideoBot.nico_latest_commenting_video_post,
+                  [SEARCH_WORD, prev_datetime],
                   None, 1.1 * 60)
     func_and_intervals.append(func_tuple)
 
